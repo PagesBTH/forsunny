@@ -26,7 +26,7 @@ function draw() {
     yspeed = -yspeed;
   }
   fill(255,255,0);
-  text(mouseX + "," + mouseY, 30, 30);
+  text(mouseX + "," + mouseY, 150, 150);
 
 
 }
