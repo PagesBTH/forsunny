@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <style>
+      a.a {
+        font-size: 25px;
+      }
+      </style> 
+    <div class="navbar-header">
+      <a class="a"; href= "index.html" s="navbar-brand" routerLink="index" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-sans-sans-serif">Home</a>
+       &nbsp; &nbsp; &nbsp;
+       <a class="a"; href= "bth-lab2.html" s="navbar-brand" routerLink="bth-labs" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-sans-sans-serif">Lab 2</a>
+       &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-lab3.html" s="navbar-brand" routerLink="bth-labs" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-sans-sans-serif">Lab 3</a>
+      &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-lab4.html" s="navbar-brand" routerLink="bth-labs" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-sans-sans-serif">Lab 4</a>
+      &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-lab5.html" s="navbar-brand" routerLink="bth-labs" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-sans-sans-serif">Lab 5</a>
+      &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-assignment1.html" s="navbar-brand" routerLink="bth-assignments" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-sans-sans-serif">Assignment 1</a>
+      &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-assignment2.html" s="navbar-brand" routerLink="bth-assignments" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-sans-sans-serif">Assignment 2</a>
+      &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-assignment3.html" s="navbar-brand" routerLink="bth-assignments" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-sans-sans-serif">Assignment 3</a>
+      &nbsp; &nbsp; &nbsp;
+    </div>
+  </div>
+</nav>
+<html lang="en">
+<head>
+  <title>Lab 5</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <style>
+      p.a {
+        font-size: 40px;
+      }
+      </style>
+        <style>
+          p.b {
+            font-size: 25px;
+          }
+          </style>
+          <style>
+            li.c {
+              font-size: 20px;
+            }
+            </style>
+            <style>
+              dd.d {
+                font-size: 20px;
+              }
+              </style>
+                 <style>
+                  p.z {
+                    font-size: 30px;
+                  }
+                                </style> 
+<h1 style="font-family:'Arial', Helvetica, sans-serif">p5.js Image</h1>
+<img src="house.png" alt="house p5" width="500" height="500">
+<script src="p5.js"></script>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 style="font-family:'Arial', Helvetica, sans-serif">p5.js Code for my House</h1>
+<form action="/html/tags/html_form_tag_action.cfm" method="post">
+  <textarea name="comments" id="comments" style="width:50%;height:600px;background-color:black;color:white;border:none;font:10px/30px'Arial', Helvetica, sans-serif;">
+    // for the position on the page 
+    // my p5.js code
+    function setup() 
+    {
+      var p;
+      p = createCanvas(400, 400);
+      p.position(300,200);
+    }
+    
+    
+    function draw()
+    {
+      background(45,45,90);
+      // roof of the house
+      stroke(0);
+      fill(24,116,42);
+      triangle(75, 150, 327, 152, 200, 40);
+      // the bottom
+      fill(245, 245, 220);
+      rect(75,150,250,250);
+      // the door
+      fill(139,79,54);
+      rect(150,250, 75,150);
+      // the knob
+      fill(0,0,0);
+      noStroke();
+      ellipse(160, 330, 10,10);
+       //house light
+      fill(	192, 192, 192);
+      fill(255,255,255);
+      rect(5,200,70,5);
+      fill(255,255,0);
+      ellipse(20,210,12);
+      // address of the house
+      textSize(18);
+      fill(0, 0, 0);
+      text('22 Random St',130, 225);
+      fill(255, 255, 255)
+      circle(30, 40, 50);
+  </textarea>
+  </form>
+<h1 style="font-family:'Arial', Helvetica, sans-serif">Reflection</h1>
+<br>
+<p class="c"; style="font-family:'Arial', Helvetica, sans-serif">I knew about p5.js from my Pattern Designs class. However I never really dealt with p5 in the context of drawing, so I wanted to do something simple like a house.
+I got the inspiration from Millie's Math House, so I just wanted to draw some simple shapes like circles, squares, rectangles and triangles. Colours were also simple to implement, so I decided to colour the shapes as well. I really liked this lab, and I would do it again for fun!
+</p>
+
+<p class="c"; style="font-family:'Arial', Helvetica, sans-serif">I wanted to draw my house pretty simple. I created the necessary shapes, (triangle for the house, rectangles for the body, doors, and light fixture, circles for the moon and light bulb). 
+  When I drew the shapes, 
+  I had a bit of trouble aligning the shapes perfectly onto the page, so I had to pick a random number, and then figure out how many pixels I need to shift the shape itself. 
+  Colouring was really easy thankfully due to the fill() function. Once I drew the shapes and coloured them I tested it on my local machine and it works!
+</p>
+<br>
+</body>
+ <!-- Site footer -->
+ <footer class="site-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        </ul>
+      </div>
+    </div>
+    <hr>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-sm-6 col-xs-12">
+        <p class="copyright-text" & style="font-family:'Arial', Helvetica, sans-sans-serif">Copyright &copy; 2020-2021 Mohammed Ahmed
+        </p>
+      </div>
+</footer>
+<footer>
+ <div class="container">
+  <p style="font-family:'Arial', Helvetica, sans-sans-serif">This page was last modified on: 12 March 2021</p>
+</div>
+</footer>
+</html>

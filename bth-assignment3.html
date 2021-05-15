@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <style>
+      a.a {
+        font-size: 25px;
+      }
+      </style> 
+    <div class="navbar-header">
+      <a class="a"; href= "index.html" s="navbar-brand" routerLink="index" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-serif">Home</a>
+       &nbsp; &nbsp; &nbsp;
+       <a class="a"; href= "bth-lab2.html" s="navbar-brand" routerLink="bth-labs" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-serif">Lab 2</a>
+       &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-lab3.html" s="navbar-brand" routerLink="bth-labs" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-serif">Lab 3</a>
+      &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-lab4.html" s="navbar-brand" routerLink="bth-labs" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-serif">Lab 4</a>
+      &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-lab5.html" s="navbar-brand" routerLink="bth-labs" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-serif">Lab 5</a>
+      &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-assignment1.html" s="navbar-brand" routerLink="bth-assignments" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-serif">Assignment 1</a>
+      &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-assignment2.html" s="navbar-brand" routerLink="bth-assignments" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-serif">Assignment 2</a>
+      &nbsp; &nbsp; &nbsp;
+      <a class="a"; href= "bth-assignment3.html" s="navbar-brand" routerLink="bth-assignments" routerLinkActive="active" style="font-family:'Arial', Helvetica, sans-serif">Assignment 3</a>
+      &nbsp; &nbsp; &nbsp;
+    </div>
+  </div>
+</nav>
+<html lang="en">
+<head>
+  <title>Assignment 3</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <style>
+      p.a {
+        font-size: 40px;
+      }
+      </style>
+        <style>
+          p.b {
+            font-size: 25px;
+          }
+          </style>
+          <style>
+            li.c {
+              font-size: 20px;
+            }
+            </style>
+            <style>
+              dd.d {
+                font-size: 20px;
+              }
+              </style>
+                 <style>
+                  p.z {
+                    font-size: 30px;
+                  }
+                  </style>
+
+  <h1 style="font-family:'Arial', Helvetica, sans-serif">Golf Ball</h1>
+  <script src="./p5.js"></script>
+  <script src="./assign-sketch.js"> </script>
+ 
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h1 style="font-family:'Arial', Helvetica, sans-serif">Bouncing Ball</h1>
+<form action="/html/tags/html_form_tag_action.cfm" method="post">
+  <textarea name="comments" id="comments" style="width:20%;height:600px;background-color:black;color:white;border:none;font:10px/30px'Arial', Helvetica, sans-serif;">
+let x = 320;
+let y = 180;
+let xspeed = 5;
+let yspeed = 2;
+let ball;
+let r = 25;
+function setup() {
+  createCanvas(640, 360);
+}
+function preload(){
+  ball = loadImage('ball.png');
+}
+function draw() {
+  background(0);
+  image(ball,x, y, r*2, r*2);
+  x += xspeed;
+  y += yspeed;
+  if (x > width - r || x < r) {
+    xspeed = -xspeed;
+  }
+  if (y > height - r || y < r) {
+    yspeed = -yspeed;
+  }
+  text(mouseX + "," + mouseY, 30, 30);
+}
+  </textarea>
+  </form>
+  <h1 style="font-family:'Arial', Helvetica, sans-serif">Reflection</h1>
+<br>
+<p class="c"; style="font-family:'Arial', Helvetica, sans-serif"> 
+Working on assignment 3 was quite interesting. I wanted to make a project that would interest me a lot, and working with margins was the idea. I wanted to make a simple golf ball that would bounce around the canvas. 
+I used some simple math to calculate where the borders are for a canvas, and then made two simple if statements (one for the x-axis, and y-axis). In terms of interactivity, I wanted to keep it simple, and display where our mouse is located on the canvas.
+This assignment was kinda difficult, mainly cause I haven't really written p5 code that animates. Getting the golf ball to properly bounce wasn't really the hard part. The hard part was getting the ball to move in the first place!
+I'd rate this a 6/10.
+</p>
+<br>
+
+<h1 style="font-family:'Arial', Times, serif">Student Oath</h1>
+<p class="c"; style="font-family:'Arial', Times, serif">I declare that this is wholly my own work in accordance with Seneca Academic Policy. No part of this work has been copied manually or electronically from any other source (including web sites) or distributed to other students.</p>
+<p class="c"; style="font-family:'Arial', Times, serif">Name: Mohammed Ahmed </p>
+<p class="c"; style="font-family:'Arial', Times, serif">Student ID: 118-221-183</p>
+</body>
+  <!-- Site footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          </ul>
+        </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text" & style="font-family:'Arial', Helvetica, sans-serif">Copyright &copy; 2020-2021 Mohammed Ahmed
+          </p>
+        </div>
+</footer>
+<footer>
+   <div class="container">
+    <p style="font-family:'Arial', Helvetica, sans-serif">This page was last modified on: 13 March 2021 </p>
+</div>
+</footer>
+</html>
